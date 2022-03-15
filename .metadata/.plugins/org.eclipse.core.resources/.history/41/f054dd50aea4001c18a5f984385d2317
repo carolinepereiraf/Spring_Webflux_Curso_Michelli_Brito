@@ -1,0 +1,22 @@
+package com.apirest.webflux.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.apirest.webflux.document.Playlist;
+import com.apirest.webflux.services.PlaylistService;
+
+import reactor.core.publisher.Flux;
+
+@RestController
+public class PlaylistController {
+
+	@Autowired
+	private PlaylistService service;
+
+	public Flux<Playlist> getPlaylist() {
+		return service.findAll();
+	}
+	
+	
+}

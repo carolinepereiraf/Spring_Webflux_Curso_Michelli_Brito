@@ -1,0 +1,36 @@
+package com.apirest.webflux.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.apirest.webflux.document.Playlist;
+import com.apirest.webflux.repository.PlaylistRepository;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+@Service
+public class PlaylistServiceImpl implements PlaylistService {
+
+	@Autowired
+	private PlaylistRepository playlistRepository;
+	
+	@Override
+	public Flux<Playlist> findAll() {
+		
+		return null;
+	}
+
+	@Override
+	public Mono<Playlist> findById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mono<Playlist> save(Playlist playlist) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

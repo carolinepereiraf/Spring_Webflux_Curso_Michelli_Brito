@@ -1,0 +1,6 @@
+package com.apirest.webflux.document;
+
+@Document
+public class Playlist {
+
+}

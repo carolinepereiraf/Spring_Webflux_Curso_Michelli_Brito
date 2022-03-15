@@ -1,0 +1,6 @@
+package com.apirest.webflux.controller;
+
+@RestController
+public class PlaylistController {
+
+}

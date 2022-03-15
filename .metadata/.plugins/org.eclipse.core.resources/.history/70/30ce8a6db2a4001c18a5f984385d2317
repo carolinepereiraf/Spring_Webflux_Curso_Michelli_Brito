@@ -1,0 +1,12 @@
+package com.apirest.webflux;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class PlaylistHandler {
+
+	@Autowired
+	PlaylistService service;
+	
+	
+}

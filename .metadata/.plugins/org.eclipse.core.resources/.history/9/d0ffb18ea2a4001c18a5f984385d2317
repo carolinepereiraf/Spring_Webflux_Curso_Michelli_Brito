@@ -1,0 +1,2 @@
+server.port=8091
+spring.data.mongodb.uri=mongodb+srv://caroline:dbUserPassword@cluster0.osiut.mongodb.net/apirestdb

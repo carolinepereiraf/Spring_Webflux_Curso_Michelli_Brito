@@ -1,0 +1,10 @@
+package com.apirest.webflux.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PlaylistController {
+
+	@Autowired
+	private PlaylistService service;
+}

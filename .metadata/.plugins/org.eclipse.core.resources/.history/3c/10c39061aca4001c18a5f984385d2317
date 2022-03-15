@@ -1,0 +1,8 @@
+package com.apirest.webflux.services;
+
+import org.springframework.data.mongodb.core.aggregation.StringOperators.RegexFindAll;
+
+public interface PlaylistService {
+
+	Flux<Playlist> FindAll();
+}
